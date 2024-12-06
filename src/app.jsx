@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MovieList from './movie-list';
 import getListMovieInfo from './server-api';
+import './app.css'
 
 export default class App extends Component {
   constructor(props) {
@@ -25,6 +26,8 @@ export default class App extends Component {
 
   render() {
     const { movies } = this.state; // Извлекаем данные из state
-    return <MovieList movie={movies} />; // Передаём их как пропс
+    return <div cassName='app'>
+      <MovieList movie={movies} />
+      </div>; // Передаём их как пропс
   }
 }

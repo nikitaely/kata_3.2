@@ -1,0 +1,36 @@
+.movie {
+    display: flex;
+    width: 451px;
+    height: 279px;
+    font-family: Inter;
+    box-shadow: 0px 4px 12px 0px #00000026;
+
+}
+
+.movie-image {
+    width: 183px;
+    height: 281px;
+    margin-right: 20px;
+}
+
+
+.movie-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.movie-date {
+    margin-bottom: 9px;
+    display: block;
+    font-size: 12px;
+    color: #827E7E;
+
+}
+
+.movie-genre {
+    border: 1px solid #D9D9D9;
+    background: #FAFAFA;
+    border-radius: 2px;
+}

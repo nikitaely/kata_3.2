@@ -1,6 +1,7 @@
 import React from 'react';
 import Movie from './movie';
 import PropTypes from 'prop-types';
+import './movie-list.css'
 
 
 function MovieList({ movie }) {

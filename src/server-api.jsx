@@ -49,7 +49,7 @@ function getListMovieInfo() {
   return getListMovie()
     .then(result => {
       // Берём только нужные фильмы
-      const movies = result.results;
+      const movies = result.results.slice(0, 10);
 
       // Получаем информацию по каждому фильму
       const data = Promise.all(
